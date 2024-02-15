@@ -1,0 +1,124 @@
+
+body {
+    font: 14px/22px "Montserrat", sans-serif;
+    background-color: #7c7c7c;;
+    color: #7c7c7c;
+/* overflow: hidden; */
+    top: 0 !important;
+    font size: 14px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container 
+{
+    width: 1200px;
+    max-width: 100%;
+    background-color: #FCFFEE;
+    height: 400px;
+    width: 100%;
+}
+
+.welcome 
+{
+	padding:50px 0 20px;
+        background-color: #FCFFEE;
+        height: 300px;
+        width: 100%;
+	position: relative;
+
+}
+
+.top-title
+{
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 34px;
+}
+
+.special
+{
+    width: 100%;
+    max-width: 100%;
+    background-color: #FEBC57;
+    height: 1200px;
+    position: relative;
+}
+
+.special::before {
+    content: '';
+    position: absolute;
+    top: -20px; /* Adjust the value to control the size of the U shape */
+    left: 0;
+    right: 0;
+    height: 30%; /* Adjust the value to control the size of the U shape */
+    background-color: #FCFFEE; /* Background color of the upper part */
+    border-radius: 0 0 50% 50%; /* Creates the U shape */
+}
+
+.top-title1
+{
+    position: relative; /* Ensure proper stacking context */
+    z-index: 1; /* Ensure it appears above the pseudo-element */
+    font-size: 34px; /* Adjust font size as needed */
+    margin-left: 40px;
+    margin-top:-40px;
+    padding: 400px 0;
+}
+
+.special1
+{
+    width: 100%;
+    max-width: 100%;
+    background-color: #3F4231;
+    height: 600px;
+    position: relative;
+}
+
+.special1::before 
+{
+    content: '';
+    position: absolute;
+    top: 0; /* Position at the top of the container */
+    left: 0; /* Align with the left edge of the container */
+    width: 100%; /* Set the width of the pseudo-element to cover half of the container */
+    height: 30%; /* Set the height to cover the entire height of the container */
+    background-color: #6D6F62; /* Set the background color of the pseudo-element */
+    border:0;
+    margin:0;
+}
+
+.top-title2 
+{
+    position: relative; /* Ensure proper stacking context */
+    z-index: 1; /* Ensure it appears above the pseudo-element */
+    color: #FEBC57;
+    font-size: 34px; /* Adjust font size as needed */
+    margin-left: 40px;
+    margin-top:-40px;
+    padding: 60px 0;
+}
+
+p
+{
+	font-size: 16px;
+    	color: #333;
+    	line-height: 1.5;
+	display: inline-block;
+	width: 45%;
+}
+
+nav a
+{
+	color: #FEBC57;
+	margin: 0 10px 0 20px;
+	font-weight: bold;
+	font-size:24px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: grey;
+}
