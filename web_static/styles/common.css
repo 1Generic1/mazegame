@@ -24,17 +24,25 @@ body {
 {
 	padding:50px 0 20px;
         background-color: #FCFFEE;
-        height: 300px;
+        height: 575px;
         width: 100%;
 	position: relative;
 
 }
 
+img
+{
+	height: 200px;
+	width: 400px;
+	border-radius: 30px;
+}
+
 .top-title
 {
-	margin-bottom: 40px;
+	margin-bottom: 70px;
 	text-align: center;
-	font-size: 34px;
+	font-size: 40px;
+
 }
 
 .special
@@ -121,4 +129,32 @@ nav a
 nav a:hover
 {
 	color: grey;
+}
+
+.play
+{
+	padding: 40px 0 0 0;
+}
+.play-now-btn 
+{
+	background-color: #FEBC57;
+	border: none;
+	border-radius: 100px;
+	padding: 10px 10px;
+	color: black;
+	font-size: 40px;
+	cursor: pointer;
+	transition: color 0.3s;
+	width: 300px;
+        height: 100px;
+
+}
+
+.play-now-btn:hover {
+    color: white; 
+}
+
+.gamesnap
+{
+	padding-top: 70px;
 }

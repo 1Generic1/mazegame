@@ -5,5 +5,16 @@ header
     width: 100%;
     text-align: center;
     line-height: 70px;
+    text-decoration: none;
+}
+
+header .logo
+{
+	width: 142px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+	background: url("/home/generic/AirBnB_clone/web_static/images/logo.png") no-repeat center;
 }
 
