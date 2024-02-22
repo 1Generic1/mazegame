@@ -1,20 +1,27 @@
 footer 
 {
     /*background-color: #FCFFEE;*/
+	font size: 14px;
     height: 800px;
     width: 100%;
     text-align: center;
     margin: 0px;
+    padding: 0px;
     background: radial-gradient(ellipse at bottom, #ECF0DA 45%, #FCFFEE 30%);
 }
 
-.mazetitle p
-{
+.mazetitle p {
+	margin: 50px;
 	font-size: 30px;
-	margin:50px;
 	color:grey;
 	font-weight: 1000;
 	font-family:"Montserrat", sans-serif;
+}
+.mazetitle
+{
+	display: flex;
+	justify-content: center; /* Horizontally center-align the content */
+	align-items: center; /* Vertically center-align the content */
 }
 
 .footer-info
@@ -22,6 +29,12 @@ footer
 	margin-bottom: 20px;
 	display: flex;
 	font-weight: 300;
+	font size: 14px;
+}
+
+.footer-info p
+{
+	font-size: 16px;
 }
 
 .address
@@ -34,6 +47,7 @@ footer
 {
 	text-align: center;
 	margin-top: 100px;
+	
 }
 
 /**.subscribe-form::before
@@ -60,6 +74,10 @@ footer
 .position
 {
 	margin-bottom: 40px;
+	font-size: 30px;
+        color:grey;
+        font-weight: 1000;
+        font-family:"Montserrat", sans-serif;
 }
 
 .input-group
@@ -103,10 +121,24 @@ footer
 .subscribe-form p
 {
 	font-weight: 300;
+}
 
+.enter
+{
+        display: flex;
+        justify-content: center; /* Horizontally center-align the content */
+        align-items: center; /* Vertically center-align the content */
+}
+
+.thanks
+{
+        display: flex;
+        justify-content: center; /* Horizontally center-align the content */
+        align-items: center; /* Vertically center-align the content */
 }
 
 .subscribe-form h3, .subscribe-form form, .subscribe-form p {
     position: relative;
-    z-index: 1; /* Ensures the content is above the background */
+    z-index: 1; Ensures the content is above the background 
 }
+

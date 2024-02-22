@@ -1,39 +1,60 @@
 footer 
 {
     /*background-color: #FCFFEE;*/
+	font-family:"Montserrat", sans-serif;
+	font size: 14px;
     height: 800px;
     width: 100%;
     text-align: center;
     margin: 0px;
+    padding: 0px;
     background: radial-gradient(ellipse at bottom, #ECF0DA 45%, #FCFFEE 30%);
 }
 
-.mazetitle p
-{
+.mazetitle p {
+	margin: 50px;
 	font-size: 30px;
-	margin:50px;
 	color:grey;
 	font-weight: 1000;
 	font-family:"Montserrat", sans-serif;
 }
+.mazetitle
+{
+	display: flex;
+	justify-content: center; /* Horizontally center-align the content */
+	align-items: center; /* Vertically center-align the content */
+}
 
 .footer-info
 {
-	margin-bottom: 20px;
+	margin-bottom: 0;
 	display: flex;
+        justify-content: center; /* Horizontally center-align the content */
 	font-weight: 300;
+	gap: 200px;
+}
+
+.footer-info p
+{
+	margin: 50px;
+}
+
+.info 
+{
+	margin-left: 0;
 }
 
 .address
 {
 	display: block;
-	width: 450px;
+	width: 350px;
 }
 
 .subscribe-form 
 {
 	text-align: center;
 	margin-top: 100px;
+	
 }
 
 /**.subscribe-form::before
@@ -60,6 +81,10 @@ footer
 .position
 {
 	margin-bottom: 40px;
+	font-size: 30px;
+        color:grey;
+        font-weight: 1000;
+        font-family:"Montserrat", sans-serif;
 }
 
 .input-group
@@ -103,10 +128,34 @@ footer
 .subscribe-form p
 {
 	font-weight: 300;
+}
 
+.enter
+{
+        display: flex;
+        justify-content: center; /* Horizontally center-align the content */
+        align-items: center; /* Vertically center-align the content */
+}
+
+.thanks
+{
+        display: flex;
+        justify-content: center; /* Horizontally center-align the content */
+        align-items: center; /* Vertically center-align the content */
+}
+
+.position
+{
+	margin-bottom: 40px;
+        font-size: 30px;
+        color:grey;
+        font-weight: 1000;
+        font-family:"Montserrat", sans-serif;
 }
 
 .subscribe-form h3, .subscribe-form form, .subscribe-form p {
     position: relative;
     z-index: 1; /* Ensures the content is above the background */
 }
+
+
